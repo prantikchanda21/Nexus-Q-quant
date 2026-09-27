@@ -1,0 +1,22 @@
+# Nexus-Q — Quantum Financial Contagion & AML Triage Platform
+# Target: Qiskit 1.x, V2 Primitives only (no deprecated qiskit.Aer/execute/qasm_simulator).
+
+fastapi>=0.115.0,<1.0
+uvicorn[standard]>=0.30.0,<1.0
+pydantic>=2.7.0,<3.0
+networkx>=3.2.1,<4.0
+yfinance>=0.2.40,<0.3
+pandas>=2.0,<3.0
+
+# Analyst copilot (chat explanations); keys via GROQ_API_KEY / GROQ_API_KEY_FALLBACK
+groq>=0.11.0,<1.0
+python-dotenv>=1.0,<2.0
+
+# --- Quantum stack (modern 1.x line) ---
+qiskit>=1.0.0,<2.0
+qiskit-aer>=0.14.0,<0.16
+qiskit-algorithms>=0.3.0,<0.4
+qiskit-machine-learning>=0.7.2,<0.9
+
+numpy>=1.26,<2.3
+scipy>=1.11,<1.16
