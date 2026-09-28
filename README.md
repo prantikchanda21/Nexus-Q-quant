@@ -394,9 +394,5 @@ frontend env: `VITE_API_BASE`. The 690 MB Elliptic CSVs are optionally baked int
 the Docker image or mounted as a persistent disk; without them elliptic scans
 gracefully fall back to the classical baseline.
 
-## 8 · Demo video
-
-`nexusq_demo.mp4` (5:04, 1600×900) — narrated walkthrough built by `demo_build/`
-(scenes → edge-tts voiceover → Playwright recording → ffmpeg assembly): CTQW shock
 with live telemetry, Elliptic federated scan with metric strip, market-mode SBIN
 shock, and a grounded copilot answer.
