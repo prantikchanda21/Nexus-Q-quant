@@ -1,0 +1,25 @@
+# --- Secrets (NEVER commit) ---
+.env
+*.env
+!.env.example
+backend/.env
+
+# --- Python ---
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- Node / frontend ---
+node_modules/
+frontend/dist/
+*.local
+
+# --- Logs & OS junk ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- Groq key safety net (any file accidentally containing a raw key) ---
+# Review before committing: keys belong ONLY in backend/.env
